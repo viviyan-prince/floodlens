@@ -21,16 +21,6 @@ aws cloudfront create-invalidation --distribution-id <DistributionId> --paths "/
 ```
 5. Open `SiteUrl` in an incognito window on your phone. Set a location, upload a flood photo, and confirm a result and a map dot appear.
 
-## Before you submit
-
-- [ ] Live URL works in incognito, on mobile data
-- [ ] Set an AWS Budgets alarm (public Bedrock endpoint). API throttling is already 5 req/s.
-- [ ] Test 10+ real flood photos and record honest error numbers for the post
-- [ ] Screenshots or logs showing your coding agent connected to AWS (the hackathon requires proof)
-- [ ] Push this folder to GitHub, then paste the repo and live URLs into the form
-- [ ] Add both required tags (`#social-good`, `#community`) in Builder Center
-- [ ] Publish before October 2, 11:59 PM PDT (about 12:29 PM IST on October 3)
-
 ## Known limits
 
 Depth thresholds in `src/app.py` (`LIMITS`) are conservative heuristics, not official guidance. Estimates come from one photo and a model, so the app shows a range and a confidence level.
